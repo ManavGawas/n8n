@@ -6,7 +6,7 @@
     "node": ">=20.15",
     "pnpm": ">=10.2.1"
   },
-  "packageManager": "pnpm@10.2.1",
+  "packageManager": "npm@latest", 
   "scripts": {
     "prepare": "node scripts/prepare.mjs",
     "preinstall": "node scripts/block-npm-install.js",
@@ -48,7 +48,7 @@
   },
   "devDependencies": {
     "@biomejs/biome": "^1.9.0",
-    "@n8n/eslint-config": "workspace:*",
+    "@n8n/eslint-config": "^1.0.0", 
     "@types/jest": "^29.5.3",
     "@types/node": "*",
     "@types/supertest": "^6.0.2",
